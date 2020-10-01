@@ -25,3 +25,14 @@ h1{
 .img {
     float: right;
 }
+.labels {
+    font-family: fantasy;
+    font-size: 25px;
+}
+h3{
+    color: darkmagenta;
+    text-align: center;
+    padding: 5%;
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
