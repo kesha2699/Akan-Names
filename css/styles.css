@@ -1,3 +1,13 @@
-.img {
-    float: left;
+body {
+    background-color: lightslategray;
+}
+.info {
+    color:darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+li {
+    color: darkslateblue;
+    font-family: serif;
+    text-align: left;
 }
