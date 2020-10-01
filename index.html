@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="jumbotron">
                     <h1>Akan-Names</h1>
                     <p class="decription">The Akan people of Ghana have a tradition of naming their children after the day of week they were born.These names have further meanings concerning the soul and the character of the person.The Akan name depends on the gender og the person.</p>
@@ -20,9 +20,9 @@
                 </div>
             </div>
         
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card">
-                    <h4>The following are the Male Akan Names according to the days:</h4>
+                    <h4 class="info">The following are the Male Akan Names according to the days:</h4>
                         <ul>
                             <li>Sunday-Kwasi</li>
                             <li>Monday-Kwadwo</li>
@@ -33,7 +33,7 @@
                             <li>Saturday-Kwame</li>
                         </ul>
 
-                    <h4>The following are the Female Akan Names according to the days:</h4>
+                    <h4 class="info">The following are the Female Akan Names according to the days:</h4>
                         <ul>
                             <li>Sunday-Akosua</li>
                             <li>Monday-Adwoa</li>
@@ -43,9 +43,39 @@
                             <li>Friday-Afua</li>
                             <li>Saturday-Ama</li>
                         </ul>
+                </div>
+            </div>
+                
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <h3>Enter your Birthdate</h3>
+    <div>
+        <form>
+            <div>
+                <label>Birthday</label>
+                <input type="text" id="birthday" placeholder="DD/MM/YY">
+            </div>
+            <div>
+                <label>Gender</label>
+                <label>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                </label>
+            </div>
+                <label>
+                    <input type="submit" name="submit">
+                </label>
+        </form>
+    </div>
+
         </div>
     </div>
 
-    
+
+
+
+
+    <script src="js/script.js" async defer></script>
 </body>
 </html>
