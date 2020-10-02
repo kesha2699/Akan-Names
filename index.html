@@ -52,27 +52,27 @@
                     <h3><strong>Enter your Birthdate</strong></h3>
     <div>
         <form>
-            <div>
-                <label for="century" class="labels">Century</label>
-                <input type="text" id="century" placeholder="Enter the century">
+            <div class="form-group">
+                <label for="century">Century</label>
+                <input type="text" id="century"  class="form-control" placeholder="Enter the century"  required max="20" min="0" max-length="2">
             </div>
-            <div>
-                <label for="year" class="labels">Year</label>
-                <input type="text" id="year" placeholder="Enter the year">
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text" id="year"  class="form-control" placeholder="Enter the year" required max="100" min="0" max-length="2">
             </div>
-            <div>
-                <label for="month" class="labels">Month</label>
-                <input type="text" id="month" placeholder="Enter the month">
+            <div class="form-group">
+                <label for="month">Month</label>
+                <input type="text" id="month" class="form-control" placeholder="Enter the month" required max="12" min="1" max-length="2">
             </div>
-            <div>
-                <label for="day" class="labels">Day</label>
-                <input type="text" id="day" placeholder="Enter the day">
+            <div class="form-group">
+                <label for="day">Day</label>
+                <input type="text" id="day" class="form-control" placeholder="Enter the day" required max="31" min="1" max-length="2">
             </div>
-            <div>
-                <label>
-                    <input type="radio" name="Gender">Male
-                    <input type="radio" name="Gender">Female
-                </label>
+            <div class="myradio">
+               <label for="radio" class="radio-inline">
+               <input type="radio" value="male" name="gender" id="male" required/>Male</label>
+               <label for="radio" class="radio-inline">
+                <input type="radio" value="Female" name="gender" id="Female" required/>Female</label>
             </div>
                 <button type="submit" id="submit" class="btn btn-primary" onclick="getAkanName()" value="submit">Submit</button>
         </form>
