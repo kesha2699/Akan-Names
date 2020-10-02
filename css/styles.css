@@ -39,3 +39,8 @@ h3{
 .highlight {
     background-color: yellow;
 }
+.test-box {
+    background-color: lightcoral;
+    padding: 20px;
+    border: 20px;
+}
