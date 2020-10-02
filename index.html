@@ -53,28 +53,25 @@
     <div>
         <form>
             <div class="form-group">
-                <label for="century">Century</label>
-                <input type="text" id="century"  class="form-control" placeholder="Enter the century"  required max="20" min="0" max-length="2">
-            </div>
-            <div class="form-group">
                 <label for="year">Year</label>
-                <input type="text" id="year"  class="form-control" placeholder="Enter the year" required max="100" min="0" max-length="2">
+                <input type="number" id="year"  class="form-control" placeholder="Enter the year">
             </div>
             <div class="form-group">
                 <label for="month">Month</label>
-                <input type="text" id="month" class="form-control" placeholder="Enter the month" required max="12" min="1" max-length="2">
+                <input type="number" id="month" class="form-control" placeholder="Enter the month">
             </div>
             <div class="form-group">
                 <label for="day of month">Day of month</label>
-                <input type="text" id="monthday" class="form-control" placeholder="Enter the day of month" required max="31" min="1" max-length="2">
+                <input type="number" id="monthday" class="form-control" placeholder="Enter the day of month">
             </div>
-            <div class="myradio">
+            <div class="gender">
                <label for="radio" class="radio-inline">
                <input type="radio" value="male" name="gender" id="male" required/>Male</label>
                <label for="radio" class="radio-inline">
                 <input type="radio" value="Female" name="gender" id="female" required/>Female</label>
             </div>
-                <button type="submit" id="submit" class="btn btn-primary" onclick="getAkanName()" value="submit">Submit</button>
+                <button type="button" id="click" class="btn btn-primary" onclick="getAkanName()">click</button>
+                <button type="reset" id="reset" class="btn btn-primary" value="reset">Reset</button>
         </form>
     </div>
 
