@@ -15,6 +15,7 @@ Kesha Patel
 ## BDD
 * The user is required to input the birth date.
 * select the gender.
+* Then the Akan Name will be displayed.
 * NB-All input should be in numbers.
 
 ## Technologies Used.
