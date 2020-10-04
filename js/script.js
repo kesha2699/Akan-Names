@@ -1,5 +1,5 @@
 
-//var dayOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];//
+var dayOfWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 
 function getAkanName() {
     var year =document.getElementById("year").value;
